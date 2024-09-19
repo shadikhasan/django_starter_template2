@@ -39,10 +39,16 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
-### 5. Create a Superuser (Optional)
+### 5.1. Create a Superuser (Optional)
 
 ```
 python manage.py createsuperuser
+```
+
+### 5.2 Initial super user by command(Optional)
+
+```
+python manage.py init_superuser
 ```
 
 ### 6. Start the Development Server
@@ -70,11 +76,6 @@ docker-compose up
 The API will then be available at [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
 ### To Log in To the Dashboard(Frontend) or Admin Panel
-
-### Initial super user by command
-``` 
-python manage.py init_superuser
-```
 
 #### Username
 
