@@ -16,7 +16,7 @@ Make sure you have the following installed:
 First, clone the repository to your local machine and navigate to the project directory:
 
 ```
-https://github.com/shadikhasan/django_starter_template2.git
+git clone https://github.com/shadikhasan/django_starter_template2.git
 cd django_starter_template2
 ```
 
