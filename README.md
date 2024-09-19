@@ -96,19 +96,25 @@ admin
 ### Create Project
 
 ```
-docker-compose run app sh -c "django-admin startproject app ."
+docker-compose run app sh -c "django-admin startproject NewProject ."
 ```
 
 ### Create New App
 
 ```
-docker-compose run --rm app sh -c "python manage.py startapp task"
+docker-compose run --rm app sh -c "python manage.py startapp newApp"
 ```
 
 ### Create Super User
 
 ```
 docker-compose run --rm app sh -c "python manage.py createsuperuser"
+```
+
+### Initial super user by command(Optional)
+
+```
+docker-compose run --rm app sh -c "python manage.py init_superuser"
 ```
 
 ### Make Migrations
