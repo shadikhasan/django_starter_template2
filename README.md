@@ -16,34 +16,45 @@ Make sure you have the following installed:
 First, clone the repository to your local machine and navigate to the project directory:
 
 ```
-git clone https://github.com/shadikhasan/FoodApp.git
-cd FoodApp
+https://github.com/shadikhasan/django_starter_template2.git
+cd django_starter_template2
 ```
+
 ### 2. Create a Virtual Environment
+
 ```
 python -m venv venv
 venv\Scripts\activate
 ```
+
 ### 3. Install Dependencies
+
 ```
 pip install -r requirements.txt
 ```
+
 ### 4. Apply Database Migrations
+
 ```
 python manage.py migrate
 ```
+
 ### 5. Create a Superuser (Optional)
+
 ```
 python manage.py createsuperuser
 ```
+
 ### 6. Start the Development Server
+
 ```
 python manage.py runserver
 ```
+
 The API will then be available at [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
-
 # 2. Using docker
+
 ### Build Docker file
 
 ```
@@ -59,6 +70,11 @@ docker-compose up
 The API will then be available at [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
 ### To Log in To the Dashboard(Frontend) or Admin Panel
+
+### Initial super user by command
+``` 
+python manage.py init_superuser
+```
 
 #### Username
 
